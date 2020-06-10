@@ -4,14 +4,22 @@
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
-  <body>
 
+  <body>
+    <div style="text-align: right;">
+      <a href="index.html">Home</a>
+      <a href="tags.html" style="margin-left: 10px;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px;">Moby Dick</a>
+    </div>
+    <header>
     <h1>Important HTML tags</h1>
+  </header>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
       <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
     </a>
 
+<div>
       <p>
         This page will act as a reference for some common tags. In the process of making it, we'll learn how to make <em>tables</em> via <code>table</code> and related tags.
       </p>
@@ -19,22 +27,23 @@
       <p>
         The table below do not include all HTML tags, but they do list <em>many</em> of the important ones.
       </p>
-
+</div>
+<div>
       <h2>Block Elements</h2>
 
-      <table>
+      <table style="width: 100%">
         <tr>
-          <th>Tag</th>
-          <th>Name</th>
-          <th>Purpose</th>
+          <th><span>Tag</span></th>
+          <th><span>Name</span></th>
+          <th><span>Purpose</span></th>
         </tr>
         <tr>
-          <td><code>h1</code>&ndash;<code>h6</code></td>
-          <td>headings</td>
-          <td>include a heading (levels 1&ndash;6)</td>
+          <td padding: 10px;><code>h1</code>&ndash;<code>h6</code></td>
+          <td padding: 10px;>headings</td>
+          <td padding: 10px;>include a heading (levels 1&ndash;6)</td>
         </tr>
         <tr>
-        <td><code>p</code></td>
+        <td ><code>p</code></td>
         <td>paragraph</td>
         <td>include a paragraph of text</td>
       </tr>
@@ -59,23 +68,25 @@
         <td>include a table data cell</td>
       </tr>
     </table>
+</div>
 
+<div>
     <h2>Inline Elements</h2>
 
     <table>
       <tr>
-        <th>Tag</th>
-        <th>Name</th>
-        <th>Purpose</th>
-        <th>Example</th>
-        <th>Result</th>
+        <th><span>Tag</span></th>
+        <th><span>Name</span></th>
+        <th><span>Purpose</span></th>
+        <th><span>Example</span></th>
+        <th><span>Result</span></th>
       </tr>
       <tr>
-        <td><code>em</code></td>
-        <td>emphasized</td>
-        <td>make emphasized text</td>
-        <td><code>&lt;em&gt;nice skills&lt;/em&gt;<code></td>
-        <td><em>nice skills</em></td>
+        <td padding: 10px;><code>em</code></td>
+        <td padding: 10px;>emphasized</td>
+        <td padding: 10px;>make emphasized text</td>
+        <td padding: 10px;><code>&lt;em&gt;nice skills&lt;/em&gt;<code></td>
+        <td padding: 10px;><em>nice skills</em></td>
       </tr>
       <tr>
      <td><code>strong</code></td>
@@ -111,6 +122,27 @@
    </tr>
  </table>
 
+<h4>Our top 3 favorite things about Moby Dick</h4>
 
+<ol>
+  <li>Vengeful whale</li>
+  <li>Salty sailors</li>
+  <li>Salty whale</li>
+</ol>
+
+<h4>Other things about Moby Dick</h4>
+
+<ul>
+  <li>
+    Chapter after chapter (after chapter) of meticulous detail about whaling
+  </li>
+  <li>
+    The story pretty much
+    <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
+       target="_blank" rel="noopener">happened in real life</a>
+  </li>
+  <li>Mad sea captains are fun</li>
+</ul>
+</div>
   </body>
 </html>
